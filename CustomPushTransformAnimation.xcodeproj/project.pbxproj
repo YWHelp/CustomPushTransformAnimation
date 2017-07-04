@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403ED6161F02A3E60091A979 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 403ED6151F02A3E60091A979 /* main.m */; };
+		403ED6191F02A3E60091A979 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 403ED6181F02A3E60091A979 /* AppDelegate.m */; };
+		403ED6211F02A3E60091A979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403ED6201F02A3E60091A979 /* Assets.xcassets */; };
+		403ED62D1F02A4560091A979 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403ED62C1F02A4560091A979 /* HomeViewController.m */; };
+		403ED6301F02A4830091A979 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403ED62F1F02A4830091A979 /* MainTabBarController.m */; };
+		403ED6331F02A5360091A979 /* PushTransformAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 403ED6321F02A5360091A979 /* PushTransformAnimation.m */; };
+		403ED6361F02A5FB0091A979 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403ED6351F02A5FB0091A979 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		403ED6111F02A3E60091A979 /* CustomPushTransformAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPushTransformAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		403ED6151F02A3E60091A979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		403ED6171F02A3E60091A979 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		403ED6181F02A3E60091A979 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		403ED6201F02A3E60091A979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		403ED6251F02A3E60091A979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403ED62B1F02A4560091A979 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		403ED62C1F02A4560091A979 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		403ED62E1F02A4830091A979 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		403ED62F1F02A4830091A979 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		403ED6311F02A5360091A979 /* PushTransformAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushTransformAnimation.h; sourceTree = "<group>"; };
+		403ED6321F02A5360091A979 /* PushTransformAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushTransformAnimation.m; sourceTree = "<group>"; };
+		403ED6341F02A5FB0091A979 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		403ED6351F02A5FB0091A979 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403ED60E1F02A3E60091A979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403ED6081F02A3E60091A979 = {
+			isa = PBXGroup;
+			children = (
+				403ED6131F02A3E60091A979 /* CustomPushTransformAnimation */,
+				403ED6121F02A3E60091A979 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		403ED6121F02A3E60091A979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403ED6111F02A3E60091A979 /* CustomPushTransformAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403ED6131F02A3E60091A979 /* CustomPushTransformAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				403ED62E1F02A4830091A979 /* MainTabBarController.h */,
+				403ED62F1F02A4830091A979 /* MainTabBarController.m */,
+				403ED6171F02A3E60091A979 /* AppDelegate.h */,
+				403ED6181F02A3E60091A979 /* AppDelegate.m */,
+				403ED62B1F02A4560091A979 /* HomeViewController.h */,
+				403ED62C1F02A4560091A979 /* HomeViewController.m */,
+				403ED6341F02A5FB0091A979 /* DetailViewController.h */,
+				403ED6351F02A5FB0091A979 /* DetailViewController.m */,
+				403ED6311F02A5360091A979 /* PushTransformAnimation.h */,
+				403ED6321F02A5360091A979 /* PushTransformAnimation.m */,
+				403ED6201F02A3E60091A979 /* Assets.xcassets */,
+				403ED6251F02A3E60091A979 /* Info.plist */,
+				403ED6141F02A3E60091A979 /* Supporting Files */,
+			);
+			path = CustomPushTransformAnimation;
+			sourceTree = "<group>";
+		};
+		403ED6141F02A3E60091A979 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				403ED6151F02A3E60091A979 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		403ED6101F02A3E60091A979 /* CustomPushTransformAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403ED6281F02A3E60091A979 /* Build configuration list for PBXNativeTarget "CustomPushTransformAnimation" */;
+			buildPhases = (
+				403ED60D1F02A3E60091A979 /* Sources */,
+				403ED60E1F02A3E60091A979 /* Frameworks */,
+				403ED60F1F02A3E60091A979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPushTransformAnimation;
+			productName = CustomPushTransformAnimation;
+			productReference = 403ED6111F02A3E60091A979 /* CustomPushTransformAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403ED6091F02A3E60091A979 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = changcai;
+				TargetAttributes = {
+					403ED6101F02A3E60091A979 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 403ED60C1F02A3E60091A979 /* Build configuration list for PBXProject "CustomPushTransformAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 403ED6081F02A3E60091A979;
+			productRefGroup = 403ED6121F02A3E60091A979 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403ED6101F02A3E60091A979 /* CustomPushTransformAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403ED60F1F02A3E60091A979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403ED6211F02A3E60091A979 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403ED60D1F02A3E60091A979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403ED6191F02A3E60091A979 /* AppDelegate.m in Sources */,
+				403ED6161F02A3E60091A979 /* main.m in Sources */,
+				403ED6301F02A4830091A979 /* MainTabBarController.m in Sources */,
+				403ED62D1F02A4560091A979 /* HomeViewController.m in Sources */,
+				403ED6331F02A5360091A979 /* PushTransformAnimation.m in Sources */,
+				403ED6361F02A5FB0091A979 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		403ED6261F02A3E60091A979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		403ED6271F02A3E60091A979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403ED6291F02A3E60091A979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomPushTransformAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.CustomPushTransformAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		403ED62A1F02A3E60091A979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomPushTransformAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.CustomPushTransformAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403ED60C1F02A3E60091A979 /* Build configuration list for PBXProject "CustomPushTransformAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403ED6261F02A3E60091A979 /* Debug */,
+				403ED6271F02A3E60091A979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403ED6281F02A3E60091A979 /* Build configuration list for PBXNativeTarget "CustomPushTransformAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403ED6291F02A3E60091A979 /* Debug */,
+				403ED62A1F02A3E60091A979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403ED6091F02A3E60091A979 /* Project object */;
+}
